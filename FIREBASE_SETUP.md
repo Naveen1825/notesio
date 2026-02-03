@@ -15,13 +15,13 @@ npm install
 Create a `.env.local` file in the root of your project with the following Firebase configuration:
 
 ```env
-NEXT_PUBLIC_FIREBASE_API_KEY=AIzaSyBiVFP_yl_TtaNIS4dBy9oB1H7rK8CotlE
-NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=sudoku-2ecb4.firebaseapp.com
-NEXT_PUBLIC_FIREBASE_PROJECT_ID=sudoku-2ecb4
-NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=sudoku-2ecb4.firebasestorage.app
-NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=65669963629
-NEXT_PUBLIC_FIREBASE_APP_ID=1:65669963629:web:c22a3ef8a7cadb6da6c464
-NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID=G-Z3497VXCF6
+NEXT_PUBLIC_FIREBASE_API_KEY=your_api_key_here
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_project.firebasestorage.app
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
+NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID=your_measurement_id
 ```
 
 ### 3. Configure Google Authentication in Firebase Console
